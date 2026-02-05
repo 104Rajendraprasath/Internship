@@ -1,0 +1,28 @@
+<template>
+    <!-- The lightning-card is the SINGLE root node -->
+    <lightning-card title="Contact List" icon-name="standard:contact">
+        
+        <!-- Conditional logic (if:true/if:error) is used on nested <template> tags -->
+        
+        <!-- Conditional rendering for data -->
+        <template if:true={contacts.data}>
+            <lightning-datatable
+                key-field="Id"
+                data={contacts.data}
+                columns={columns}
+                hide-checkbox-column
+            >
+            </lightning-datatable>
+        </template>
+        
+       <template if:true={errors}>
+            <div class="slds-box slds-theme_error slds-m-top_small">
+                <p>An error occurred while loading Contacts:</p>
+                <!-- Iterate over the array returned by the errors getter -->
+                <template for:each={errors} for:item="error">
+                    <p key={error}>- {error}</p>
+                </template>
+            </div>
+        </template>
+    </lightning-card>
+</template>
