@@ -1,4 +1,4 @@
 rajendra.prasath.00a767dbf4ac@agentforce.com-FernSoftware@2026
-packaging/installPackage.apexp?p0=INSERT_PACKAGE_ID_HERE
+packaging/installPackage.apexp?p0=
 https://kimai-apmea.fernsoftware.com/en/dashboard/-FernSoftware@2026-FSI0174
 https://fern-bis.greythr.com/v3/portal/ess/home-FernSoftware@2026
