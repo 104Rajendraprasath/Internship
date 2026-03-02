@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="Account Finder">
+       
+        <!-- Input Field -->
+        <lightning-input 
+            type="number" 
+            label="Annual Revenue" 
+            formatter="currency" 
+            value={annualRevenue} 
+            onchange={handleChange}>
+        </lightning-input>
+        
+        <br/>
+
+        <!-- Reset Button -->
+        <lightning-button 
+            label="reset" 
+            onclick={reset}>
+        </lightning-button>
+
+        <!-- THIS IS THE FIX: Check if data exists before looping -->
+        <template if:true={accounts.data}>
+            <template for:each={accounts.data} for:item="account">
+                <p key={account.Id}>{account.Name}</p>
+            </template>
+        </template>
+   
+    </lightning-card>
+</template>
