@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Sticker Manager</label>
+
+    <!-- Object Permissions -->
+    <objectPermissions>
+        <object>Sticker__c</object>
+        <allowRead>true</allowRead>
+        <allowCreate>true</allowCreate>
+        <allowEdit>true</allowEdit>
+        <allowDelete>false</allowDelete>
+        <viewAllRecords>true</viewAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
+    </objectPermissions>
+
+    <!-- Tab Settings -->
+    <tabSettings>
+        <tab>Sticker__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

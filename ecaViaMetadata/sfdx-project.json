@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "ecaViaMetadata",
+  "namespace": "",
+  "sfdcLoginUrl": "https://orgfarm-088f2fa80e-dev-ed.develop.my.salesforce.com/",
+  "sourceApiVersion": "65.0"
+}

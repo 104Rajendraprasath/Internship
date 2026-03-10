@@ -1,0 +1,35 @@
+{
+  "allOrNone": true,
+  "compositeRequest": [
+    {
+      "method": "POST",
+      "url": "/services/data/v58.0/sobjects/Order_Event__e",
+      "referenceId": "event1",
+      "body": {
+        "Order_Number__c" : "99",
+        "City__c" : "San Francisco",
+        "Amount__c" : 5205
+      }
+    },
+    {
+      "method": "POST",
+      "url": "/services/data/v58.0/sobjects/Order_Event__e",
+      "referenceId": "event2",
+      "body": {
+        "Order_Number__c" : "100",
+        "City__c" : "San Francisco",
+        "Amount__c" : 120
+      }
+    },
+    {
+      "method": "POST",
+      "url": "/services/data/v58.0/sobjects/Order_Event__e",
+      "referenceId": "event3",
+      "body": {
+        "Order_Number__c" : "101",
+        "City__c" : "New York",
+        "Amount__c" : 65
+      }
+    }
+  ]
+}
