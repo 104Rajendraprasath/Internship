@@ -1,0 +1,4 @@
+.my-custom-card {
+    background: var(--slds-g-color-surface-container-1, var(--lwc-colorBackgroundAlt));
+    color: var(--slds-g-color-on-surface-1, #747474);
+}

@@ -3,3 +3,6 @@ packaging/installPackage.apexp?p0=githubtokenghp_vbv5OE4v7T2Wsaykgoi3k2Vu7icnRo2
 https://kimai-apmea.fernsoftware.com/en/dashboard/-FernSoftware@2026-FSI0174
 https://fern-bis.greythr.com/v3/portal/ess/home-FernSoftware@2026
 abcdef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
+Current My Domain URL	orgfarm-088f2fa80e-dev-ed.develop.my.salesforce.com with partitioned enhanced domains
+My Domain Name	orgfarm-088f2fa80e-dev-ed
+Domain Suffix	Standard (*.my.salesforce.com)

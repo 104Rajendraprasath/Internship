@@ -1,8 +1,9 @@
+
 <template>
-  <lightning-card title="HelloWorld" icon-name="custom:custom14">
-    <div class="slds-m-around_medium">
-      <p>Hello, {greeting}!</p>
-      <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
-    </div>
-  </lightning-card>
+  <div class="my-custom-card slds-p-around_medium">
+    <p>Hello, {greeting}!</p>
+    <!-- Base Components ship with SLDS 2 support -->
+    <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+  </div>
 </template>
+
